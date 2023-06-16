@@ -1,0 +1,150 @@
+{
+// =================== CONFIG: Basicas do vscode ===================
+    "workbench.startupEditor": "none", // <== Não abrir o arquivo de boas vindas
+    "screencastMode.onlyKeyboardShortcuts": true,
+    "breadcrumbs.enabled" : true, // <== Mostrar breadcrumbs
+// =================== CONFIG: janelas, temas, icones ===================
+    "workbench.iconTheme": "material-icon-theme", // <== Tema dos icones
+    "workbench.colorTheme": "Tokyo Night Ported Nvim",
+    "workbench.productIconTheme" : "fluent-icons",
+    "workbench.tree.indent": 20,
+
+// =================== CONFIG: javascript/node.js ===================
+    "[javascript]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+// =================== CONFIG: react.js ===================
+  "emmet.syntaxProfiles" : {
+    "javascript" : "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "javascriptreact": "javascriptreact",
+    "typescriptreact": "typescriptreact",
+  },
+
+// =================== CONFIG: arquivos e pastas ===================
+    "files.autoSave": "afterDelay", // <== Salvar automaticamente
+    "files.associations" : {
+      ".sequelizerc" : "javascript",
+      ".stylelintrc" : "json",
+      "*.tsx" : "typescriptreact",
+      ".env.*" : "dotenv",
+      ".prettierrc" : "json"
+    },
+    "files.exclude": {
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/.hg": true,
+      "**/.svn": true,
+      "**/.git": true,
+      "**/node_modules": true,
+      "**/__pycache__": true
+    },
+
+// =================== CONFIG: extensões ===================
+    "extensions.ignoreRecommendations": true, // <== Não mostrar recomendações de extensões
+    "extensions.autoCheckUpdates": true, // <== Verificar atualizações automaticamente
+
+// =================== CONFIG: extensão material icon theme ===================
+    "material-icon-theme.folders.associations": {
+        "adapters": "contract",
+        "grpc": "pipe",
+        "kube": "kubernetes",
+        "main": "lib",
+        "websockets": "pipe",
+        "implementations": "core",
+        "protos": "pipe",
+        "entities": "class",
+        "kafka": "pipe",
+        "use-cases": "functions",
+        "migrations": "tools",
+        "schemas": "class",
+        "useCases": "functions",
+        "eslint-config": "tools",
+        "typeorm": "database",
+        "_shared": "shared",
+        "mappers": "meta",
+        "fakes": "mock",
+        "modules": "components",
+        "subscribers": "messages",
+        "domain": "class",
+        "protocols": "contract",
+        "infra": "app",
+        "view-models": "views",
+        "presentation": "template",
+        "dtos": "typescript",
+        "http": "container",
+        "providers": "include",
+        "factories": "class",
+        "repositories": "mappings"
+    },
+    "material-icon-theme.files.associations": {
+        "tsconfig.json": "tune",
+        "*.webpack.js": "webpack",
+        "*.proto": "3d",
+        "ormconfig.json": "database"
+    },
+    "material-icon-theme.languages.associations": {
+        "dotenv": "tune"
+      },
+      "material-icon-theme.activeIconPack": "nest",
+      "material-icon-theme.folders.theme": "specific",'
+      "material-icon-theme.folders.color": "#6633CC",
+
+// linhas guias
+    "editor.fontSize": 18,
+    "editor.tabSize": 2,
+    "editor.lineHeight": 26,
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.suggestSelection": "first", // <== Selecionar a primeira sugestão
+    "editor.fontLigatures": true, // <== Fonte com ligaduras
+    "editor.acceptSuggestionOnCommitCharacter": false, // <== Não aceitar sugestão ao digitar
+    "editor.accessibilitySupport": "off", // <== Desabilitar suporte a acessibilidade
+    "workbench.editor.labelFormat": "short", // <== Formato do nome do arquivo
+    "editor.parameterHints.enabled" : true, // <== Desabilitar dicas de parâmetros
+    "editor.renderLineHighlight" : "gutter", // <== Destacar linha atual
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "smooth",
+    "editor.stickyScroll.enabled": true,
+    "editor.minimap.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.wordWrap": "on",
+
+
+// =================== CONFIG: terminal linux ===================
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Jetbrains Nerd Font",
+
+// =================== CONFIG: explorador de arquivos ===================
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "tabnine.experimentalAutoImports": true,
+    "editor.inlineSuggest.enabled": true,
+    
+// =================== CONFIG: mkdocs ===================
+    "yaml.schemas": {
+      "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
+    },
+    "yaml.customTags": [ 
+      "!ENV scalar",
+      "!ENV sequence",
+      "tag:yaml.org,2002:python/name:materialx.emoji.to_svg",
+      "tag:yaml.org,2002:python/name:materialx.emoji.twemoji",
+      "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
+    ],
+    "redhat.telemetry.enabled": true
+}
