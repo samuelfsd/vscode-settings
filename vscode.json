@@ -5,10 +5,10 @@
 
   // =================== CONFIG: janelas, temas, icones ===================
       "workbench.iconTheme": "symbols", // <== Tema dos icones
-      "workbench.colorTheme": "Min Dark",
+      "workbench.colorTheme": "Gruvbox Material Dark",
       "workbench.productIconTheme" : "fluent-icons",
       "workbench.tree.indent": 20,
-  
+
   // =================== CONFIG: javascript ===================
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -184,6 +184,31 @@
         "Exams",
         "Consultations",
         "beneficiary",
+        "latex",
+        "term",
+        "must",
+        "scanned",
+        "withTheme",
+        "qrcode",
+        "expo",
+        "TouchableRipple",
+        "integrated",
+        "font",
+        "hookform",
+        "programmes",
+        "programme",
+        "creators",
+        "beneficiaries",
+        "term",
+        "search",
+        "companies",
+        "Toast",
+        "toast",
+        "TouchableOpacity",
+        "remember",
+        "hair",
+        "logged",
+        "toastify",
       ],
 
   // =================== CONFIG: terminal linux ===================
@@ -210,4 +235,5 @@
       "tailwindCSS.experimental.classRegex": [
         ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
       ],
+      "liveServer.settings.donotShowInfoMsg": true,
   }
