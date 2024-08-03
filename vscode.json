@@ -321,18 +321,18 @@
           "border": "1px solid white",
       },
       {
-          "text": "@FIXME",
+          "text": "@TODO",
           "color": "#000",
-          "border": "2px solid black",
+          "border": "2px solid white",
           "isWholeLine": false,
       },
       {
-          "text": "@TODO:",
+          "text": "@FIXME:",
           "color": "#FFF",
           "border": "1px solid white",
           "backgroundColor": "red",
           "overviewRulerColor": "grey"
-          //other styling properties goes here ... 
+          //other styling properties goes here ...
       }
   ],
 
