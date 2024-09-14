@@ -339,5 +339,6 @@
    // =================== CONFIG: prisma ===================
    "[prisma]": {
     "editor.formatOnSave": true
-   },
+  },
+  "terminal.integrated.env.linux": {},
 }
